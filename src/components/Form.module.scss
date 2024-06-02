@@ -1,0 +1,79 @@
+.form{
+    display: flex;
+    width: 100vw;
+    height: 3.375rem;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: -1.6875rem;
+
+    > input{
+        width: 37.875rem;
+        padding: 0 1rem;
+        height: 3.375rem;
+        border-radius: .5rem;
+        border: 1px solid #0D0D0D;
+        background-color: #333;
+        outline: none;
+        color: #fff;
+        font-family: var(--font-inter);
+    }
+
+    > button {
+        width: fit-content;
+        height: 3.375rem;
+        padding: 1rem;
+        border-radius: .5rem;
+        background-color: #1e6f9f;
+        font-family: var(--font-inter);
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        font-weight: 700;
+        color: #fff;
+        font-size: .875rem;
+        line-height: 1.125rem;
+
+        &:disabled{
+            cursor: not-allowed;
+        }
+    }
+}
+
+.showCourses{
+    background-color: white;
+    width: 46.875rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    table{
+        width: 100%;
+
+        tbody{
+            width: 100%;
+    
+            tr{
+                margin: 10px;
+                width: 100%;
+                display: flex;
+
+                > td:first-child{
+                    width: 60%;
+                    display: inline-block;
+                }
+
+                > td:nth-child(2){
+                    width: 20%;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

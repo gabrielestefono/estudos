@@ -1,0 +1,24 @@
+{
+	"responses": {
+		"chapter": {
+			"results": [
+				{
+					"_class": "chapter",
+					"title": "titulo"
+				}
+			]
+		},
+		"lecture": {
+			"results": [
+				{
+					"_class": "lecture",
+					"title": "Titulo",
+					"asset": {
+						"asset_type": "Video",
+						"content_summary": "tempo"
+					}
+				}
+			]
+		}
+	}
+}

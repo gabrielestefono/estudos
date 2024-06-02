@@ -1,0 +1,32 @@
+.header{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d;
+
+    > div{
+        width: 100%;
+        max-width: 46rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    > button{
+        position: absolute;
+        width: 1.875rem;
+        height: 1.875rem;
+        right: 100px;
+        top: 100px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+
+        > svg{
+            fill: #fff;
+        }
+    }
+}
